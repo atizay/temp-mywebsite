@@ -1,3 +1,4 @@
+import React from 'react'
 import SocialLinks from '../social-links/SocialLinks';
 // import Timer from '../timer/Timer';
 import './App.css';

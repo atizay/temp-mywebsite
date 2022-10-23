@@ -6,16 +6,16 @@ function SocialLinks() {
   return (
     <ul className="socials-list">
       <li className="socials-list__item">
-        <Link to="https://vk.com/osipov.bear" className="socials-list__link" target="_blank">
+        <a href="https://vk.com/osipov.bear" className="socials-list__link" target="_blank">
           <span className="socials-list__icon socials-list__icon_vk"></span>
           <span className="socials-list__address-link">vk.com/osipov.bear</span>
-        </Link>
+        </a>
       </li>
       <li className="socials-list__item">
-        <Link to="https://github.com/atizay" className="socials-list__link" target="_blank">
+        <a href="https://github.com/atizay" className="socials-list__link" target="_blank">
           <span className="socials-list__icon socials-list__icon_git"></span>
           <span className="socials-list__address-link">github.com/atizay</span>
-        </Link>
+        </a>
       </li>
       <li className="socials-list__item">
         <a href="tg://resolve?domain=osipov_bear" className="socials-list__link" target="_blank">
